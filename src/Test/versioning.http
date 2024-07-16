@@ -1,0 +1,9 @@
+
+
+GET https://localhost:7296/api/Book?api-version=1.0
+
+
+###
+
+GET https://localhost:7296/api/Book
+api-version: 1.0

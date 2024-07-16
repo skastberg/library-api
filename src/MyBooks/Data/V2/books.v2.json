@@ -1,0 +1,716 @@
+[
+  {
+    "Title": "To Kill a Mockingbird",
+    "Author": "Harper Lee",
+    "Year": 1960,
+    "Id": "1",
+    "Category": "Classic Literature"
+  },
+  {
+    "Title": "1984",
+    "Author": "George Orwell",
+    "Year": 1949,
+    "Id": "2",
+    "Category": "Dystopian"
+  },
+  {
+    "Title": "Pride and Prejudice",
+    "Author": "Jane Austen",
+    "Year": 1813,
+    "Id": "3",
+    "Category": "Classic Romance"
+  },
+  {
+    "Title": "The Great Gatsby",
+    "Author": "F. Scott Fitzgerald",
+    "Year": 1925,
+    "Id": "4",
+    "Category": "Classic Literature"
+  },
+  {
+    "Title": "Moby Dick",
+    "Author": "Herman Melville",
+    "Year": 1851,
+    "Id": "5",
+    "Category": "Adventure"
+  },
+  {
+    "Title": "War and Peace",
+    "Author": "Leo Tolstoy",
+    "Year": 1869,
+    "Id": "6",
+    "Category": "Historical Fiction"
+  },
+  {
+    "Title": "The Odyssey",
+    "Author": "Homer",
+    "Year": -800,
+    "Id": "7",
+    "Category": "Epic Poetry"
+  },
+  {
+    "Title": "Ulysses",
+    "Author": "James Joyce",
+    "Year": 1922,
+    "Id": "8",
+    "Category": "Modernist Literature"
+  },
+  {
+    "Title": "The Catcher in the Rye",
+    "Author": "J.D. Salinger",
+    "Year": 1951,
+    "Id": "9",
+    "Category": "Coming-of-Age"
+  },
+  {
+    "Title": "The Lord of the Rings",
+    "Author": "J.R.R. Tolkien",
+    "Year": 1954,
+    "Id": "10",
+    "Category": "Fantasy"
+  },
+  {
+    "Title": "The Hobbit",
+    "Author": "J.R.R. Tolkien",
+    "Year": 1937,
+    "Id": "11",
+    "Category": "Fantasy"
+  },
+  {
+    "Title": "Anna Karenina",
+    "Author": "Leo Tolstoy",
+    "Year": 1877,
+    "Id": "12",
+    "Category": "Classic Literature"
+  },
+  {
+    "Title": "Crime and Punishment",
+    "Author": "Fyodor Dostoevsky",
+    "Year": 1866,
+    "Id": "13",
+    "Category": "Psychological Fiction"
+  },
+  {
+    "Title": "The Brothers Karamazov",
+    "Author": "Fyodor Dostoevsky",
+    "Year": 1880,
+    "Id": "14",
+    "Category": "Philosophical Fiction"
+  },
+  {
+    "Title": "Wuthering Heights",
+    "Author": "Emily Brontë",
+    "Year": 1847,
+    "Id": "15",
+    "Category": "Gothic Fiction"
+  },
+  {
+    "Title": "Jane Eyre",
+    "Author": "Charlotte Brontë",
+    "Year": 1847,
+    "Id": "16",
+    "Category": "Gothic Romance"
+  },
+  {
+    "Title": "Brave New World",
+    "Author": "Aldous Huxley",
+    "Year": 1932,
+    "Id": "17",
+    "Category": "Dystopian"
+  },
+  {
+    "Title": "Fahrenheit 451",
+    "Author": "Ray Bradbury",
+    "Year": 1953,
+    "Id": "18",
+    "Category": "Dystopian"
+  },
+  {
+    "Title": "The Divine Comedy",
+    "Author": "Dante Alighieri",
+    "Year": 1320,
+    "Id": "19",
+    "Category": "Epic Poetry"
+  },
+  {
+    "Title": "Les Misérables",
+    "Author": "Victor Hugo",
+    "Year": 1862,
+    "Id": "20",
+    "Category": "Historical Fiction"
+  },
+  {
+    "Title": "Madame Bovary",
+    "Author": "Gustave Flaubert",
+    "Year": 1857,
+    "Id": "21",
+    "Category": "Literary Fiction"
+  },
+  {
+    "Title": "The Iliad",
+    "Author": "Homer",
+    "Year": -750,
+    "Id": "22",
+    "Category": "Epic Poetry"
+  },
+  {
+    "Title": "Don Quixote",
+    "Author": "Miguel de Cervantes",
+    "Year": 1605,
+    "Id": "23",
+    "Category": "Classic Literature"
+  },
+  {
+    "Title": "One Hundred Years of Solitude",
+    "Author": "Gabriel García Márquez",
+    "Year": 1967,
+    "Id": "24",
+    "Category": "Magical Realism"
+  },
+  {
+    "Title": "Moby Dick",
+    "Author": "Herman Melville",
+    "Year": 1851,
+    "Id": "25",
+    "Category": "Adventure"
+  },
+  {
+    "Title": "The Old Man and the Sea",
+    "Author": "Ernest Hemingway",
+    "Year": 1952,
+    "Id": "26",
+    "Category": "Literary Fiction"
+  },
+  {
+    "Title": "The Picture of Dorian Gray",
+    "Author": "Oscar Wilde",
+    "Year": 1890,
+    "Id": "27",
+    "Category": "Philosophical Fiction"
+  },
+  {
+    "Title": "A Tale of Two Cities",
+    "Author": "Charles Dickens",
+    "Year": 1859,
+    "Id": "28",
+    "Category": "Historical Fiction"
+  },
+  {
+    "Title": "Great Expectations",
+    "Author": "Charles Dickens",
+    "Year": 1861,
+    "Id": "29",
+    "Category": "Classic Literature"
+  },
+  {
+    "Title": "Little Women",
+    "Author": "Louisa May Alcott",
+    "Year": 1868,
+    "Id": "30",
+    "Category": "Coming-of-Age"
+  },
+  {
+    "Title": "Frankenstein",
+    "Author": "Mary Shelley",
+    "Year": 1818,
+    "Id": "31",
+    "Category": "Gothic Fiction"
+  },
+  {
+    "Title": "Dracula",
+    "Author": "Bram Stoker",
+    "Year": 1897,
+    "Id": "32",
+    "Category": "Horror"
+  },
+  {
+    "Title": "The Adventures of Huckleberry Finn",
+    "Author": "Mark Twain",
+    "Year": 1884,
+    "Id": "33",
+    "Category": "Adventure"
+  },
+  {
+    "Title": "Alice's Adventures in Wonderland",
+    "Author": "Lewis Carroll",
+    "Year": 1865,
+    "Id": "34",
+    "Category": "Fantasy"
+  },
+  {
+    "Title": "The Scarlet Letter",
+    "Author": "Nathaniel Hawthorne",
+    "Year": 1850,
+    "Id": "35",
+    "Category": "Historical Fiction"
+  },
+  {
+    "Title": "The Metamorphosis",
+    "Author": "Franz Kafka",
+    "Year": 1915,
+    "Id": "36",
+    "Category": "Absurdist Fiction"
+  },
+  {
+    "Title": "The Grapes of Wrath",
+    "Author": "John Steinbeck",
+    "Year": 1939,
+    "Id": "37",
+    "Category": "Historical Fiction"
+  },
+  {
+    "Title": "The Kite Runner",
+    "Author": "Khaled Hosseini",
+    "Year": 2003,
+    "Id": "38",
+    "Category": "Historical Fiction"
+  },
+  {
+    "Title": "Beloved",
+    "Author": "Toni Morrison",
+    "Year": 1987,
+    "Id": "39",
+    "Category": "Historical Fiction"
+  },
+  {
+    "Title": "The Sun Also Rises",
+    "Author": "Ernest Hemingway",
+    "Year": 1926,
+    "Id": "40",
+    "Category": "Literary Fiction"
+  },
+  {
+    "Title": "Slaughterhouse-Five",
+    "Author": "Kurt Vonnegut",
+    "Year": 1969,
+    "Id": "41",
+    "Category": "Science Fiction"
+  },
+  {
+    "Title": "Catch-22",
+    "Author": "Joseph Heller",
+    "Year": 1961,
+    "Id": "42",
+    "Category": "Satire"
+  },
+  {
+    "Title": "The Road",
+    "Author": "Cormac McCarthy",
+    "Year": 2006,
+    "Id": "43",
+    "Category": "Post-Apocalyptic"
+  },
+  {
+    "Title": "Life of Pi",
+    "Author": "Yann Martel",
+    "Year": 2001,
+    "Id": "44",
+    "Category": "Adventure"
+  },
+  {
+    "Title": "Gone with the Wind",
+    "Author": "Margaret Mitchell",
+    "Year": 1936,
+    "Id": "45",
+    "Category": "Historical Fiction"
+  },
+  {
+    "Title": "Memoirs of a Geisha",
+    "Author": "Arthur Golden",
+    "Year": 1997,
+    "Id": "46",
+    "Category": "Historical Fiction"
+  },
+  {
+    "Title": "Dune",
+    "Author": "Frank Herbert",
+    "Year": 1965,
+    "Id": "47",
+    "Category": "Science Fiction"
+  },
+  {
+    "Title": "The Catcher in the Rye",
+    "Author": "J.D. Salinger",
+    "Year": 1951,
+    "Id": "48",
+    "Category": "Coming-of-Age"
+  },
+  {
+    "Title": "The Hitchhiker's Guide to the Galaxy",
+    "Author": "Douglas Adams",
+    "Year": 1979,
+    "Id": "49",
+    "Category": "Science Fiction"
+  },
+  {
+    "Title": "Ender's Game",
+    "Author": "Orson Scott Card",
+    "Year": 1985,
+    "Id": "50",
+    "Category": "Science Fiction"
+  },
+  {
+    "Title": "The Shining",
+    "Author": "Stephen King",
+    "Year": 1977,
+    "Id": "51",
+    "Category": "Horror"
+  },
+  {
+    "Title": "The Handmaid's Tale",
+    "Author": "Margaret Atwood",
+    "Year": 1985,
+    "Id": "52",
+    "Category": "Dystopian"
+  },
+  {
+    "Title": "The Hunger Games",
+    "Author": "Suzanne Collins",
+    "Year": 2008,
+    "Id": "53",
+    "Category": "Dystopian"
+  },
+  {
+    "Title": "Harry Potter and the Sorcerer's Stone",
+    "Author": "J.K. Rowling",
+    "Year": 1997,
+    "Id": "54",
+    "Category": "Fantasy"
+  },
+  {
+    "Title": "The Da Vinci Code",
+    "Author": "Dan Brown",
+    "Year": 2003,
+    "Id": "55",
+    "Category": "Thriller"
+  },
+  {
+    "Title": "The Secret Life of Bees",
+    "Author": "Sue Monk Kidd",
+    "Year": 2001,
+    "Id": "56",
+    "Category": "Historical Fiction"
+  },
+  {
+    "Title": "Water for Elephants",
+    "Author": "Sara Gruen",
+    "Year": 2006,
+    "Id": "57",
+    "Category": "Historical Fiction"
+  },
+  {
+    "Title": "The Girl with the Dragon Tattoo",
+    "Author": "Stieg Larsson",
+    "Year": 2005,
+    "Id": "58",
+    "Category": "Mystery"
+  },
+  {
+    "Title": "The Fault in Our Stars",
+    "Author": "John Green",
+    "Year": 2012,
+    "Id": "59",
+    "Category": "Young Adult"
+  },
+  {
+    "Title": "Twilight",
+    "Author": "Stephenie Meyer",
+    "Year": 2005,
+    "Id": "60",
+    "Category": "Fantasy"
+  },
+  {
+    "Title": "The Perks of Being a Wallflower",
+    "Author": "Stephen Chbosky",
+    "Year": 1999,
+    "Id": "61",
+    "Category": "Young Adult"
+  },
+  {
+    "Title": "The Book Thief",
+    "Author": "Markus Zusak",
+    "Year": 2005,
+    "Id": "62",
+    "Category": "Historical Fiction"
+  },
+  {
+    "Title": "Ready Player One",
+    "Author": "Ernest Cline",
+    "Year": 2011,
+    "Id": "63",
+    "Category": "Science Fiction"
+  },
+  {
+    "Title": "The Maze Runner",
+    "Author": "James Dashner",
+    "Year": 2009,
+    "Id": "64",
+    "Category": "Dystopian"
+  },
+  {
+    "Title": "Divergent",
+    "Author": "Veronica Roth",
+    "Year": 2011,
+    "Id": "65",
+    "Category": "Dystopian"
+  },
+  {
+    "Title": "The Time Traveler's Wife",
+    "Author": "Audrey Niffenegger",
+    "Year": 2003,
+    "Id": "66",
+    "Category": "Romance"
+  },
+  {
+    "Title": "The Lovely Bones",
+    "Author": "Alice Sebold",
+    "Year": 2002,
+    "Id": "67",
+    "Category": "Mystery"
+  },
+  {
+    "Title": "The Night Circus",
+    "Author": "Erin Morgenstern",
+    "Year": 2011,
+    "Id": "68",
+    "Category": "Fantasy"
+  },
+  {
+    "Title": "The Goldfinch",
+    "Author": "Donna Tartt",
+    "Year": 2013,
+    "Id": "69",
+    "Category": "Literary Fiction"
+  },
+  {
+    "Title": "The Road",
+    "Author": "Cormac McCarthy",
+    "Year": 2006,
+    "Id": "70",
+    "Category": "Post-Apocalyptic"
+  },
+  {
+    "Title": "The Curious Incident of the Dog in the Night-Time",
+    "Author": "Mark Haddon",
+    "Year": 2003,
+    "Id": "71",
+    "Category": "Mystery"
+  },
+  {
+    "Title": "The Shadow of the Wind",
+    "Author": "Carlos Ruiz Zafón",
+    "Year": 2001,
+    "Id": "72",
+    "Category": "Mystery"
+  },
+  {
+    "Title": "The Alchemist",
+    "Author": "Paulo Coelho",
+    "Year": 1988,
+    "Id": "73",
+    "Category": "Adventure"
+  },
+  {
+    "Title": "Life of Pi",
+    "Author": "Yann Martel",
+    "Year": 2001,
+    "Id": "74",
+    "Category": "Adventure"
+  },
+  {
+    "Title": "The Girl on the Train",
+    "Author": "Paula Hawkins",
+    "Year": 2015,
+    "Id": "75",
+    "Category": "Mystery"
+  },
+  {
+    "Title": "Gone Girl",
+    "Author": "Gillian Flynn",
+    "Year": 2012,
+    "Id": "76",
+    "Category": "Thriller"
+  },
+  {
+    "Title": "Big Little Lies",
+    "Author": "Liane Moriarty",
+    "Year": 2014,
+    "Id": "77",
+    "Category": "Mystery"
+  },
+  {
+    "Title": "The Help",
+    "Author": "Kathryn Stockett",
+    "Year": 2009,
+    "Id": "78",
+    "Category": "Historical Fiction"
+  },
+  {
+    "Title": "The Poisonwood Bible",
+    "Author": "Barbara Kingsolver",
+    "Year": 1998,
+    "Id": "79",
+    "Category": "Literary Fiction"
+  },
+  {
+    "Title": "The Pillars of the Earth",
+    "Author": "Ken Follett",
+    "Year": 1989,
+    "Id": "80",
+    "Category": "Historical Fiction"
+  },
+  {
+    "Title": "All the Light We Cannot See",
+    "Author": "Anthony Doerr",
+    "Year": 2014,
+    "Id": "81",
+    "Category": "Historical Fiction"
+  },
+  {
+    "Title": "The Light Between Oceans",
+    "Author": "M.L. Stedman",
+    "Year": 2012,
+    "Id": "82",
+    "Category": "Historical Fiction"
+  },
+  {
+    "Title": "A Man Called Ove",
+    "Author": "Fredrik Backman",
+    "Year": 2012,
+    "Id": "83",
+    "Category": "Literary Fiction"
+  },
+  {
+    "Title": "The Immortal Life of Henrietta Lacks",
+    "Author": "Rebecca Skloot",
+    "Year": 2010,
+    "Id": "84",
+    "Category": "Biography"
+  },
+  {
+    "Title": "The Martian",
+    "Author": "Andy Weir",
+    "Year": 2011,
+    "Id": "85",
+    "Category": "Science Fiction"
+  },
+  {
+    "Title": "The Shack",
+    "Author": "William P. Young",
+    "Year": 2007,
+    "Id": "86",
+    "Category": "Spiritual"
+  },
+  {
+    "Title": "Fifty Shades of Grey",
+    "Author": "E.L. James",
+    "Year": 2011,
+    "Id": "87",
+    "Category": "Romance"
+  },
+  {
+    "Title": "The Girl with the Dragon Tattoo",
+    "Author": "Stieg Larsson",
+    "Year": 2005,
+    "Id": "88",
+    "Category": "Mystery"
+  },
+  {
+    "Title": "The Hunger Games",
+    "Author": "Suzanne Collins",
+    "Year": 2008,
+    "Id": "89",
+    "Category": "Dystopian"
+  },
+  {
+    "Title": "The Fault in Our Stars",
+    "Author": "John Green",
+    "Year": 2012,
+    "Id": "90",
+    "Category": "Young Adult"
+  },
+  {
+    "Title": "The Perks of Being a Wallflower",
+    "Author": "Stephen Chbosky",
+    "Year": 1999,
+    "Id": "91",
+    "Category": "Young Adult"
+  },
+  {
+    "Title": "Ready Player One",
+    "Author": "Ernest Cline",
+    "Year": 2011,
+    "Id": "92",
+    "Category": "Science Fiction"
+  },
+  {
+    "Title": "The Maze Runner",
+    "Author": "James Dashner",
+    "Year": 2009,
+    "Id": "93",
+    "Category": "Dystopian"
+  },
+  {
+    "Title": "Divergent",
+    "Author": "Veronica Roth",
+    "Year": 2011,
+    "Id": "94",
+    "Category": "Dystopian"
+  },
+  {
+    "Title": "The Time Traveler's Wife",
+    "Author": "Audrey Niffenegger",
+    "Year": 2003,
+    "Id": "95",
+    "Category": "Romance"
+  },
+  {
+    "Title": "The Lovely Bones",
+    "Author": "Alice Sebold",
+    "Year": 2002,
+    "Id": "96",
+    "Category": "Mystery"
+  },
+  {
+    "Title": "The Night Circus",
+    "Author": "Erin Morgenstern",
+    "Year": 2011,
+    "Id": "97",
+    "Category": "Fantasy"
+  },
+  {
+    "Title": "The Goldfinch",
+    "Author": "Donna Tartt",
+    "Year": 2013,
+    "Id": "98",
+    "Category": "Literary Fiction"
+  },
+  {
+    "Title": "The Road",
+    "Author": "Cormac McCarthy",
+    "Year": 2006,
+    "Id": "99",
+    "Category": "Post-Apocalyptic"
+  },
+  {
+    "Title": "The Curious Incident of the Dog in the Night-Time",
+    "Author": "Mark Haddon",
+    "Year": 2003,
+    "Id": "100",
+    "Category": "Mystery"
+  },
+  {
+    "Title": "The Shadow of the Wind",
+    "Author": "Carlos Ruiz Zafón",
+    "Year": 2001,
+    "Id": "101",
+    "Category": "Mystery"
+  },
+  {
+    "Title": "The Alchemist",
+    "Author": "Paulo Coelho",
+    "Year": 1988,
+    "Id": "102",
+    "Category": "Adventure"
+  }
+]
