@@ -5,9 +5,9 @@ name: .NET
 
 on:
   push:
-    branches: [ "versioning/query-and-header" ]
+    branches: [ "versioning/*" ]
   pull_request:
-    branches: [ "versioning/query-and-header" ]
+    branches: [ "versioning/*" ]
 
 jobs:
   build:
@@ -30,7 +30,8 @@ jobs:
         # Artifact name
         name: Specs
         # A file, directory or wildcard pattern that describes what to upload
-        path: '**/.specs/*'
+        path: 'src/MyLibrary/.specs/*'
+        
         # The desired behavior if no files are found using the provided path.
 
           
