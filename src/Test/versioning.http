@@ -48,3 +48,57 @@ api-version: 2.0
 GET https://localhost:7296/api/Book/1
 api-version: 2.0
 
+
+###
+
+# All authors with version 2.0 query string
+GET {{MyLibrary_HostAddress}}/api/Author?api-version=2.0
+
+###
+
+# All books for an author with version 2.0 query string
+
+GET {{MyLibrary_HostAddress}}/api/Author/Ernest%20Hemingway/Books?api-version=2.0
+
+
+###
+
+# All authors with version 2.0 Header
+
+GET https://localhost:7296/api/Author
+api-version: 2.0
+
+###
+
+# All books for an author with version 2.0 Header
+
+GET https://localhost:7296/api/Author/Ernest%20Hemingway/Books
+api-version: 2.0
+
+
+### 
+
+# All Categories with version 2.0 query string
+
+GET {{MyLibrary_HostAddress}}/api/Category?api-version=2.0
+
+###
+
+# All books for a category with version 2.0 query string
+
+GET {{MyLibrary_HostAddress}}/api/Category/Fantasy/Books?api-version=2.0
+
+###
+
+# All Categories with version 2.0 Header
+
+GET https://localhost:7296/api/Category
+api-version: 2.0
+
+###
+
+# All books for a category with version 2.0 Header
+
+GET https://localhost:7296/api/Category/Fantasy/Books
+api-version: 2.0
+
