@@ -28,10 +28,7 @@ builder.Services.AddApiVersioning(opt =>
         opt.AssumeDefaultVersionWhenUnspecified = true;
         opt.DefaultApiVersion = new Asp.Versioning.ApiVersion(1, 0);
         opt.ReportApiVersions = true;
-        opt.ApiVersionReader = ApiVersionReader.Combine(
-            new HeaderApiVersionReader("api-Version"),
-            new QueryStringApiVersionReader("api-version")
-            );
+        opt.ApiVersionReader = new UrlSegmentApiVersionReader();
     }
 ).AddApiExplorer(opt =>
 {

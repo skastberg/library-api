@@ -10,7 +10,7 @@ namespace MyLibrary.Controllers.V2;
 /// </summary>
 [ApiVersion(2)]
 [ApiVersion("2.0")]
-[Route("api/[controller]")]
+[Route("api/v{version:apiversion}/[controller]")]
 [ApiController]
 public class AuthorController : Controller
 {

@@ -2,49 +2,45 @@
 
 ###
 
-# All books with version 1.0 Query String
-GET {{MyLibrary_HostAddress}}/api/Book?api-version=1.0
+# All books with version 1.0 Url
+GET {{MyLibrary_HostAddress}}/api/v1/Book
 
 ###
 
-# One book with version 1.0 Query String
-GET {{MyLibrary_HostAddress}}/api/Book/1?api-version=1.0
+# One book with version 1.0 Url
+GET {{MyLibrary_HostAddress}}/api/v1/Book/1
 
 ###
 
-# All books with version 1.0 Header
 
-GET https://localhost:7296/api/Book
-api-version: 1.0
-
-###
-
-# One book with version 1.0 Header
-
-GET https://localhost:7296/api/Book/1
-api-version: 1.0
+# All books with version 2.0 Url
+GET {{MyLibrary_HostAddress}}/api/v2/Book
 
 ###
 
-# All books with version 2.0 Query String
-GET {{MyLibrary_HostAddress}}/api/Book?api-version=2.0
+# One book with version 2.0 Url
+GET {{MyLibrary_HostAddress}}/api/v2/Book/1
 
 ###
 
-# One book with version 2.0 Query String
-GET {{MyLibrary_HostAddress}}/api/Book/1?api-version=2.0
+# All authors with version 2.0 Url
+GET {{MyLibrary_HostAddress}}/api/v2/Author
 
 ###
 
-# All books with version 2.0 Header
+# All books for an author with version 2.0 Url
 
-GET https://localhost:7296/api/Book
-api-version: 2.0
+GET {{MyLibrary_HostAddress}}/api/v2/Author/Ernest%20Hemingway/Books
+
+
+### 
+
+# All Categories with version 2.0 Url
+
+GET {{MyLibrary_HostAddress}}/api/v2/Category
 
 ###
 
-# One book with version 2.0 Header
+# All books for a category with version 2.0 Url
 
-GET https://localhost:7296/api/Book/1
-api-version: 2.0
-
+GET {{MyLibrary_HostAddress}}/api/v2/Category/Fantasy/Books
