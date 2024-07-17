@@ -1,7 +1,7 @@
-﻿namespace MyBooks.Model.V1;
+﻿namespace MyLibrary.Model.V2;
 
 /// <summary>
-/// Represents a book with a title, author, publication year, and an identifier.
+/// Represents a book with a title, author, publication year, category, and an identifier.
 /// </summary>
 public class Book
 {
@@ -24,4 +24,9 @@ public class Book
     /// Gets or sets the unique identifier for the book.
     /// </summary>
     public string Id { get; set; }
+
+    /// <summary>
+    /// Gets or sets the category of the book.
+    /// </summary>
+    public string Category { get; set; }
 }

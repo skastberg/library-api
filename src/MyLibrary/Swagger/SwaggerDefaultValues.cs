@@ -1,4 +1,4 @@
-﻿namespace MyBooks.Swagger;
+﻿namespace MyLibrary.Swagger;
 
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.AspNetCore.Mvc.ModelBinding;

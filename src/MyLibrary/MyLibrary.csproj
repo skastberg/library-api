@@ -20,11 +20,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EditorConfigFiles Remove="C:\Users\samue\source\repos\MyBooks\MyBooks\.editorconfig" />
+    <EditorConfigFiles Remove="C:\Users\samue\source\repos\MyLibrary\MyLibrary\.editorconfig" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="C:\Users\samue\source\repos\MyBooks\MyBooks\.editorconfig" />
+    <None Include="C:\Users\samue\source\repos\MyLibrary\MyLibrary\.editorconfig" />
   </ItemGroup>
 
 </Project>

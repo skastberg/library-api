@@ -1,6 +1,0 @@
-@MyBooks_HostAddress = http://localhost:5008
-
-GET {{MyBooks_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

@@ -1,15 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Asp.Versioning;
-using MyBooks.Model.V1;
-using MyBooks.Data.V1;
+using MyLibrary.Model.V1;
+using MyLibrary.Data.V1;
 
-namespace MyBooks.Controllers.V1;
+namespace MyLibrary.Controllers.V1;
 
 
-//[ApiVersion(1)]
-//[Route("api/v{version:apiVersion}/[controller]")]
+/// <summary>
+/// Controller for managing books. Version 1.0.
+/// </summary>
 [ApiVersion("1.0")]
-//[Route("api/v{version:apiversion}/[controller]")]
 [Route("api/[controller]")]
 [ApiController]
 public class BookController : Controller

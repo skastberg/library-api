@@ -1,7 +1,7 @@
-﻿using MyBooks.Model.V1;
+﻿using MyLibrary.Model.V1;
 using Newtonsoft.Json;
 
-namespace MyBooks.Data.V1;
+namespace MyLibrary.Data.V1;
 
 public static class BooksMock
 {

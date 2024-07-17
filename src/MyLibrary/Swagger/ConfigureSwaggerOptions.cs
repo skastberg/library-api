@@ -1,4 +1,4 @@
-﻿namespace MyBooks.Swagger;
+﻿namespace MyLibrary.Swagger;
 
 using Asp.Versioning.ApiExplorer;
 using Microsoft.Extensions.Options;

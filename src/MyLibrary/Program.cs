@@ -1,6 +1,6 @@
 using Asp.Versioning;
 using Microsoft.Extensions.Options;
-using MyBooks.Swagger;
+using MyLibrary.Swagger;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using System.Reflection;
 
@@ -30,8 +30,7 @@ builder.Services.AddApiVersioning(opt =>
         opt.ReportApiVersions = true;
         opt.ApiVersionReader = ApiVersionReader.Combine(
             new HeaderApiVersionReader("api-Version"),
-            new QueryStringApiVersionReader("api-version"),
-            new UrlSegmentApiVersionReader()
+            new QueryStringApiVersionReader("api-version")
             );
     }
 ).AddApiExplorer(opt =>
