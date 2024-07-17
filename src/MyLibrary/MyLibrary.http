@@ -1,6 +1,0 @@
-@MyLibrary_HostAddress = http://localhost:5008
-
-GET {{MyLibrary_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
