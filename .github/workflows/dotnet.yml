@@ -21,9 +21,9 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore  **/*.sln
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build **/*.sln --no-restore
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v4.3.4
       with:
