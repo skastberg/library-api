@@ -398,4 +398,4 @@ FodyWeavers.xsd
 *.sln.iml
 
 # OpenAPI spec generated on local build
-.specs/*
+**/.specs/*
