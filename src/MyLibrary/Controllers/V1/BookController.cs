@@ -39,6 +39,7 @@ public class BookController : Controller
     [ProducesResponseType(200, Type = typeof(Book))]
     [ProducesResponseType(404)]
     [Produces("application/json")]
+    [Obsolete("Some reason")]
     public IActionResult Get(string id)
     {
         var (found, _, book) = BooksMock.GetBook(id);
