@@ -14,6 +14,7 @@ public class SwaggerDefaultValues : IOperationFilter
         var apiDescription = context.ApiDescription;
         operation.Deprecated |= apiDescription.IsDeprecated();
 
+
         foreach (var responseType in context.ApiDescription.SupportedResponseTypes)
         {
             var responseKey = responseType.IsDefaultResponse ? "default" : responseType.StatusCode.ToString();
@@ -21,9 +22,10 @@ public class SwaggerDefaultValues : IOperationFilter
 
             foreach (var contentType in response.Content.Keys)
             {
+                
                 if (responseType.ApiResponseFormats.All(x => x.MediaType != contentType))
                 {
-                    response.Content.Remove(contentType);
+                   // response.Content.Remove(contentType);
                 }
             }
         }
@@ -50,5 +52,6 @@ public class SwaggerDefaultValues : IOperationFilter
 
             parameter.Required |= description.IsRequired;
         }
+
     }
 }

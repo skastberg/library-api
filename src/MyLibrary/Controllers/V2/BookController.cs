@@ -9,9 +9,8 @@ namespace MyLibrary.Controllers.V2;
 /// <summary>
 /// Controller for managing books. Version 2.0.
 /// </summary>
-[ApiVersion(2)]
 [ApiVersion("2.0")]
-[Route("api/v{version:apiversion}/[controller]")]
+[Route("api/[controller]")]
 [ApiController]
 public class BookController : Controller
 {

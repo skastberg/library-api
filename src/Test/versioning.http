@@ -3,44 +3,54 @@
 ###
 
 # All books with version 1.0 Url
-GET {{MyLibrary_HostAddress}}/api/v1/Book
+GET {{MyLibrary_HostAddress}}/api/Book
+Accept: application/json;v=1.0
 
 ###
 
 # One book with version 1.0 Url
-GET {{MyLibrary_HostAddress}}/api/v1/Book/1
+GET {{MyLibrary_HostAddress}}/api/Book/1
+Accept: application/json;v=1.0
 
 ###
 
 
 # All books with version 2.0 Url
-GET {{MyLibrary_HostAddress}}/api/v2/Book
-
+GET {{MyLibrary_HostAddress}}/api/Book
+Accept: application/json;v=2.0
 ###
 
 # One book with version 2.0 Url
-GET {{MyLibrary_HostAddress}}/api/v2/Book/1
-
+GET {{MyLibrary_HostAddress}}/api/Book/1
+Accept: application/json;v=2.0
 ###
 
 # All authors with version 2.0 Url
-GET {{MyLibrary_HostAddress}}/api/v2/Author
-
+GET {{MyLibrary_HostAddress}}/api/Author
+Accept: application/json;v=2.0
 ###
 
 # All books for an author with version 2.0 Url
 
-GET {{MyLibrary_HostAddress}}/api/v2/Author/Ernest%20Hemingway/Books
-
+GET {{MyLibrary_HostAddress}}/api/Author/Ernest%20Hemingway/Books
+Accept: application/json;v=2.0
 
 ### 
 
 # All Categories with version 2.0 Url
 
-GET {{MyLibrary_HostAddress}}/api/v2/Category
-
+GET {{MyLibrary_HostAddress}}/api/Category
+Accept: application/json;v=2.0
 ###
 
 # All books for a category with version 2.0 Url
 
-GET {{MyLibrary_HostAddress}}/api/v2/Category/Fantasy/Books
+GET {{MyLibrary_HostAddress}}/api/Category/Fantasy/Books
+Accept: application/json;v=2.0
+
+###
+
+# All books for a category with version 1.0 Url will return 406 not acceptable
+
+GET {{MyLibrary_HostAddress}}/api/Category/Fantasy/Books
+Accept: application/json;v=1.0

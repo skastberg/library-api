@@ -1,4 +1,5 @@
 using Asp.Versioning;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using MyLibrary.Swagger;
 using Swashbuckle.AspNetCore.SwaggerGen;
@@ -28,13 +29,13 @@ builder.Services.AddApiVersioning(opt =>
         opt.AssumeDefaultVersionWhenUnspecified = true;
         opt.DefaultApiVersion = new Asp.Versioning.ApiVersion(1, 0);
         opt.ReportApiVersions = true;
-        opt.ApiVersionReader = new UrlSegmentApiVersionReader();
+        opt.ApiVersionReader = new MediaTypeApiVersionReader("v");
     }
 ).AddApiExplorer(opt =>
 {
     opt.GroupNameFormat = "'v'VVV";
-    opt.SubstituteApiVersionInUrl = true;
-
+    opt.SubstituteApiVersionInUrl = false;
+    opt.ApiVersionParameterSource = new MediaTypeApiVersionReader();
 });
 
 var app = builder.Build();
@@ -48,7 +49,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(options =>
     {
         var descriptions = app.DescribeApiVersions();
-
+  
         // Build a swagger endpoint for each discovered API version
         foreach (var description in descriptions)
         {
