@@ -30,7 +30,6 @@ public class ConfigureSwaggerOptions : IConfigureOptions<SwaggerGenOptions>
             Contact = new OpenApiContact { Name = "Samuel Kastberg", Email = "samuel.kastberg@live.se" },
             License = new OpenApiLicense { Name = "MIT", Url = new Uri("https://opensource.org/licenses/MIT") }
         };
-
         if (description.IsDeprecated)
         {
             info.Description += " This API version has been deprecated.";

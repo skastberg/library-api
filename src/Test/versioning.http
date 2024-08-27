@@ -25,6 +25,12 @@ GET {{MyLibrary_HostAddress}}/api/Book/1
 Accept: application/json;v=2.0
 ###
 
+# One book with default version Url
+GET {{MyLibrary_HostAddress}}/api/Book/1
+Accept: application/json
+
+###
+
 # All authors with version 2.0 Url
 GET {{MyLibrary_HostAddress}}/api/Author
 Accept: application/json;v=2.0

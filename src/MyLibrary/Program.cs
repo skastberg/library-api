@@ -18,7 +18,6 @@ builder.Services.AddSwaggerGen(options =>
 {
     // Add a custom operation filter which sets default values
     options.OperationFilter<SwaggerDefaultValues>();
-    
     options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
 });
 
@@ -26,10 +25,16 @@ builder.Services.AddSwaggerGen(options =>
 
 builder.Services.AddApiVersioning(opt =>
     {
+        var builder = new MediaTypeApiVersionReaderBuilder();
+
+        opt.ApiVersionReader = builder.Parameter("v")
+                                          .Include("application/json")
+                                          .Build();
         opt.AssumeDefaultVersionWhenUnspecified = true;
-        opt.DefaultApiVersion = new Asp.Versioning.ApiVersion(1, 0);
+        opt.DefaultApiVersion = new Asp.Versioning.ApiVersion(2, 0);
         opt.ReportApiVersions = true;
-        opt.ApiVersionReader = new MediaTypeApiVersionReader("v");
+
+        opt.ApiVersionSelector = new CurrentImplementationApiVersionSelector(opt);
     }
 ).AddApiExplorer(opt =>
 {
@@ -45,6 +50,7 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+    app.UseDeveloperExceptionPage();
     app.UseSwagger();
     app.UseSwaggerUI(options =>
     {
@@ -53,8 +59,9 @@ if (app.Environment.IsDevelopment())
         // Build a swagger endpoint for each discovered API version
         foreach (var description in descriptions)
         {
+            
             var url = $"/swagger/{description.GroupName}/swagger.json";
-            var name = description.GroupName.ToUpperInvariant();
+            var name = description.ApiVersion.ToString();
             options.SwaggerEndpoint(url, name);
         }
     });

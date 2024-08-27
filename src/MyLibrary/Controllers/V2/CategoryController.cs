@@ -9,6 +9,7 @@ namespace MyLibrary.Controllers.V2;
 [ApiVersion("2.0")]
 [Route("api/[controller]")]
 [ApiController]
+[Produces("application/json;v=2.0", "application/json")]
 public class CategoryController : Controller
 {
     /// <summary>Returns a list of books by a specific category.</summary>
@@ -18,7 +19,6 @@ public class CategoryController : Controller
     [Route("{category}/books")]
     [ProducesResponseType(200, Type = typeof(List<Book>))]
     [ProducesResponseType(404)]
-    [Produces("application/json")]
     public IActionResult GetBooksByCategory(string category)
     {
         var books = BooksMock.GetBooks().Where<Book>(b => b.Category == category);
@@ -35,7 +35,6 @@ public class CategoryController : Controller
     [HttpGet]
     [MapToApiVersion("2.0")]
     [ProducesResponseType(200, Type = typeof(List<String>))]
-    [Produces("application/json")]
     public IActionResult GetCategories()
     {
         // Get a list of categories from the books list unique ordered

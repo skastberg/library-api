@@ -25,7 +25,7 @@ public class SwaggerDefaultValues : IOperationFilter
                 
                 if (responseType.ApiResponseFormats.All(x => x.MediaType != contentType))
                 {
-                   // response.Content.Remove(contentType);
+                   response.Content.Remove(contentType);
                 }
             }
         }

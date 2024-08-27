@@ -12,6 +12,7 @@ namespace MyLibrary.Controllers.V2;
 [ApiVersion("2.0")]
 [Route("api/[controller]")]
 [ApiController]
+[Produces("application/json;v=2.0", "application/json")]
 public class BookController : Controller
 {
     /// <summary>
@@ -22,7 +23,6 @@ public class BookController : Controller
     [MapToApiVersion("2.0")]
     // Return a list of books
     [ProducesResponseType(200, Type = typeof(List<Book>))]
-    [Produces("application/json")]
     public IActionResult Get()
     {
         var books = BooksMock.GetBooks();
@@ -40,7 +40,6 @@ public class BookController : Controller
     [Route("{id}")]
     [ProducesResponseType(200, Type = typeof(Book))]
     [ProducesResponseType(404)]
-    [Produces("application/json")]
     public IActionResult Get(string id)
     {
         var (found, _, book) = BooksMock.GetBook(id);
