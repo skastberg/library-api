@@ -21,8 +21,6 @@ builder.Services.AddSwaggerGen(options =>
     options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
 });
 
-
-
 builder.Services.AddApiVersioning(opt =>
     {
         opt.AssumeDefaultVersionWhenUnspecified = true;
@@ -34,12 +32,9 @@ builder.Services.AddApiVersioning(opt =>
 {
     opt.GroupNameFormat = "'v'VVV";
     opt.SubstituteApiVersionInUrl = true;
-
 });
 
 var app = builder.Build();
-
-
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

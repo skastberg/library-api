@@ -7,8 +7,17 @@ using Swashbuckle.AspNetCore.SwaggerGen;
 using System.Text.Json;
 
 
+/// <summary>
+/// A filter that applies default values to Swagger operations.  
+/// This class customizes the Swagger documentation by setting default values, descriptions, and required flags for parameters and responses.
+/// </summary>
 public class SwaggerDefaultValues : IOperationFilter
 {
+    /// <summary>
+    /// Applies the filter to the specified operation.
+    /// </summary>
+    /// <param name="operation">The operation to apply the filter to.</param>
+    /// <param name="context">The context for the filter.</param>
     public void Apply(OpenApiOperation operation, OperationFilterContext context)
     {
         var apiDescription = context.ApiDescription;
