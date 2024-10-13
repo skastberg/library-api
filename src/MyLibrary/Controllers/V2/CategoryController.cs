@@ -6,7 +6,7 @@ using MyLibrary.Data.V2;
 namespace MyLibrary.Controllers.V2;
 
 /// <summary>Controller for managing Categories. Version 2.0.</summary>
-[ApiVersion(2)]
+
 [ApiVersion("2.0")]
 [Route("api/[controller]")]
 [ApiController]
